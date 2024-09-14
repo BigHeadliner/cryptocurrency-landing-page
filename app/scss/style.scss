@@ -175,6 +175,59 @@
 
    
 }
+  
+
+.call-to-action{  
+    text-align: center;
+     
+   &__inner{ 
+    background-color: #00695c; 
+    padding: 50px 0 0 0; 
+    border: 1px solid transparent;
+   } 
+    
+   &__title{  
+     @extend %montserrat-700;
+     margin-bottom: 35px;
+     font-size: 30px;  
+     color: #b8860b;
+   } 
+    
+   &__subtitle{ 
+    margin-bottom: 40px; 
+    font-size: 25px; 
+    @extend %montserrat-500;
+   }  
+    
+   &__form{ 
+    margin-bottom: 50px;
+   }
+    
+   &__input{ 
+    width: 100%; 
+    max-width: 350px; 
+    padding: 0 15px; 
+    border-radius: 9px; 
+    border: 1px solid #b8860b; 
+    height: 39px;
+   }  
+    
+   &__button{ 
+    border-radius: 9px;   
+    border: 1px solid #FFF;   
+    height: 39px;
+    padding: 0 18px; 
+    font-size: 17px; 
+    cursor: pointer; 
+    transition: 0.3s ease;  
+   } 
+    
+   &__button:hover{ 
+    border: 1px solid #b8860b;   
+    color: #b8860b;
+   }
+
+}
  
 
 

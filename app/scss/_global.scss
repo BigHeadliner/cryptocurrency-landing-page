@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+} 
+   
 body { 
     @extend %montserrat-400;
     font-size: 18px;
