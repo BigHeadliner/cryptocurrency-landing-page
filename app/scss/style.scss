@@ -227,6 +227,59 @@
     color: #b8860b;
    }
 
+} 
+ 
+ 
+ 
+.reviews {
+
+    &__title {
+        text-align: center;
+    }
+
+    &__inner {
+        background-color: #00695c;
+        padding-top: 75px; 
+        border: 1px solid transparent;
+    }  
+     
+    &__title{ 
+        margin-bottom: 90px; 
+        font-size: 30px;
+        color: #b8860b; 
+        @extend %montserrat-700;
+    }
+     
+    &__items{ 
+        border: 1px solid transparent; 
+        display: flex; 
+        justify-content: center; 
+        // align-items: center; 
+        flex-wrap: wrap; 
+        margin-bottom: 38px;
+    } 
+      
+   &__item{ 
+        border: 1px solid darkmagenta; 
+        width: 100%; 
+        max-width: 470px; 
+        border-radius: 30px; 
+        padding: 25px; 
+        border: 2px solid #b8860b; 
+        margin: 15px;
+    } 
+     
+   &__item-img{ 
+    border-radius: 50px; 
+    margin-bottom: 9px;
+   }  
+    
+  &__item-position{ 
+    color: #b8860b;  
+    font-size: 23px;
+  }
+    
+ 
 }
  
 
