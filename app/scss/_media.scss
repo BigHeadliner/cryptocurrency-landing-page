@@ -13,7 +13,44 @@
         padding: 75px 15px 0 15px;
     }
 
- }  
+ }   
+  
+ @media(max-width:1145px) {   
+     
+    // call-to-action
+     
+    .call-to-action__inner {
+        background-color: #00695c;
+        padding: 50px 15px 0 15px; 
+    } 
+     
+    .call-to-action__form{ 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-between; 
+        align-items: center;
+    } 
+     
+    .call-to-action__input{ 
+        margin-bottom: 15px;
+    }
+ } 
+  
+ @media(max-width:850px) {   
+     
+    // call-to-action
+      
+    .call-to-action__title {  
+        line-height: 45px;
+    }
+
+    .call-to-action__subtitle {
+        margin-bottom: 40px;
+        font-size: 19px;
+    }  
+     
+
+  }
     
 
 @media(max-width:735px) {  
@@ -38,7 +75,7 @@
         transform: translateY(-500px);
     } 
      
-    .menu__list.menu__list--active { 
+    .header__inner .menu .menu__list.menu__list--active { 
         transform: translateY(0);
     }
      
@@ -59,6 +96,16 @@
     }
 
 } 
+ 
+@media(max-width:715px) {    
+     
+    // reviews
+     
+    .reviews__title {
+        margin-bottom: 70px;
+    }
+
+}
  
  
 @media(max-width:590px) {    
@@ -86,7 +133,17 @@
     }
 
 } 
-  
+   
+@media(max-width:570px) {    
+     
+    // reviews
+     
+    .reviews__inner {
+        padding-top: 45px; 
+    }
+
+} 
+
 
 @media(max-width:487px) {     
      
@@ -105,7 +162,13 @@
      
     .benefits__card {
         margin: 25px 10px; 
-    } 
+    }   
+     
+    // reviews
+     
+    .reviews__item {
+        margin: 15px 5px; 
+    }
 
 }
  
@@ -128,6 +191,16 @@
         margin-bottom: 34px; 
     }
 
+} 
+ 
+@media(max-width:390px) {   
+     
+    // reviews
+     
+    .reviews__title {
+        margin-bottom: 50px;
+    }
+
 }
  
 @media(max-width:350px) {   
@@ -138,8 +211,30 @@
         font-size: 25px;
         margin-bottom: 38px;
         line-height: 40px; 
-    } 
+    }   
+     
+    // call-to-action
+     
+    .call-to-action__input {
+        margin-bottom: 27px;
+    }  
+     
+    // reviews
+     
+    .reviews__item { 
+        border: 1px solid transparent;
+    }
+
+} 
+ 
+@media(max-width:335px) {    
+     
+    // reviews
+     
+    .reviews__title {
+        margin-bottom: 30px;} 
 
 }
+ 
  
  
